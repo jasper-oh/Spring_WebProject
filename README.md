@@ -88,8 +88,8 @@
     <beans:bean name="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<beans:property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
 		<beans:property name="url" value="jdbc:mysql://localhost:3306/*Personal Schema Name*?serverTimezone=Asia/Seoul&amp;characterEncoding=utf8&amp;useSSL=false"/>
-		<beans:property name="username" value="root"/>
-		<beans:property name="password" value="qwer1234"/>
+		<beans:property name="username" value="*ID*"/>
+		<beans:property name="password" value="*PW*"/>
 	</beans:bean>
 	<beans:bean name="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<beans:property name="dataSource" ref="dataSource"/>
